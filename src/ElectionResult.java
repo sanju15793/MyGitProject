@@ -23,6 +23,7 @@ import java.util.concurrent.TimeUnit;
  * Author: Sanjay S
  * Date: 04/06/2019
  * Description: Utility to get election result into an excel file
+ * updated file
  **/
 
 public class ElectionResult {
@@ -173,8 +174,6 @@ public class ElectionResult {
         int winnerindex = ar3.indexOf(maxvotes);
         System.out.println("Winner votes: " + maxvotes + " and index: " + winnerindex);
         return winnerindex;
-        //comment
-
     }
 
     private void closeBrowser() {
