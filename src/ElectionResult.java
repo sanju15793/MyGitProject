@@ -173,6 +173,7 @@ public class ElectionResult {
         int winnerindex = ar3.indexOf(maxvotes);
         System.out.println("Winner votes: " + maxvotes + " and index: " + winnerindex);
         return winnerindex;
+        //comment
 
     }
 
