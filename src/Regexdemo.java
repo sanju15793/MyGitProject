@@ -12,7 +12,7 @@ public class Regexdemo {
 
         boolean flag = Pattern.matches("([a-zA-Z0-9]*)@([a-z]+).([com])+", exp);
         String result = (flag) ? "matches" : "no match" ;
-        System.out.println(result);
+        System.out.println(result);//
 
 
 
